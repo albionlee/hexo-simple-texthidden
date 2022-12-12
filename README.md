@@ -14,4 +14,4 @@ Hidden text
 ```
 **color:  black、red、blue...**
 ## End
-**Enjoy it ! **
+**Enjoy it !**

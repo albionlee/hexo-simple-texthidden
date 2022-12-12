@@ -12,6 +12,6 @@ hexo.extend.tag.register('textHidden', function(args, content){
         background-color: transparent;
     }
    </style>
-      <span class="hidden-text" onmouseover="this.style.color='${fontColor}'; this.style.backgroundColor='transparent';" onmouseout="this.style.color='black'; this.style.backgroundColor='black';">${content}</span>
+      <span class="hidden-text" onmouseover="this.style.color='${fontColor}'; this.style.backgroundColor='#cccccc';" onmouseout="this.style.color='black'; this.style.backgroundColor='black';">${content}</span>
    `
 }, {ends: true, async: true})
